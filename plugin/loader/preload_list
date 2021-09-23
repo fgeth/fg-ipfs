@@ -1,0 +1,11 @@
+# this file contains plugins to be preloaded
+# empty lines or starting with '#' are ignored
+#
+# name             go-path                  number of the sub-plugin or *
+
+ipldgit github.com/fgeth/fg-ipfs/plugin/plugins/git *
+
+badgerds github.com/fgeth/fg-ipfs/plugin/plugins/badgerds *
+flatfs github.com/fgeth/fg-ipfs/plugin/plugins/flatfs *
+levelds github.com/fgeth/fg-ipfs/plugin/plugins/levelds *
+peerlog github.com/fgeth/fg-ipfs/plugin/plugins/peerlog *
